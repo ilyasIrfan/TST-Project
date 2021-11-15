@@ -1,0 +1,95 @@
+{
+    "laporan pemesanan": [
+        {
+            "user_id": 1,
+            "order" : [
+                {
+                    "order_id" : 1,
+                    "tanggal" : "10-06-2021",
+                    "paket" : [
+                        {
+                            "paket_id" : 1,
+                            "durasi" : "3 hari",
+                            "jumlah CV" : 3,
+                            "harga" : 120000
+                        }
+                    ],
+                    "status bayar" : [
+                        {
+                            "payment_id" : 12412,
+                            "metode pembayaran" : "AVA",
+                            "total terbayar" : 120000,
+                            "status bayar" : "belum lunas"
+                        }
+                    ],
+                    "status CV" : [
+                        {
+                            "jumlah CV" : 3,
+                            "reviwer" : "Anang Lanang",
+                            "status review" : "dalam proses" 
+                        }
+                    ]   
+                },
+                {
+                    "order_id" : 2,
+                    "tanggal" : "10-07-2021",
+                    "paket" : [
+                        {
+                            "paket_id" : 1,
+                            "durasi" : "3 hari",
+                            "jumlah CV" : 3,
+                            "harga" : 120000
+                        }
+                    ],
+                    "status bayar" : [
+                        {
+                            "payment_id" : 12413,
+                            "metode pembayaran" : "AVA",
+                            "total terbayar" : 120000,
+                            "status bayar" : "lunas"
+                        }
+                    ],
+                    "status CV" : [
+                        {
+                            "jumlah CV" : 3,
+                            "reviwer" : "Anang Lanang",
+                            "status review" : "complete" 
+                        }
+                    ]  
+                }
+            ]
+        },
+        {
+            "user_id": 2,
+            "order" : [
+                {
+                    "order_id" : 3,
+                    "tanggal" : "12-06-2021",
+                    "paket" : [
+                        {
+                            "paket_id" : 2,
+                            "durasi" : "2 hari",
+                            "jumlah CV" : 2,
+                            "harga" : 80000
+                        }
+                    ],
+                    "status bayar" : [
+                        {
+                            "payment_id" : 12413,
+                            "metode pembayaran" : "AVA",
+                            "total terbayar" : 80000,
+                            "status bayar" : "belum lunas"
+                        }
+                    ],
+                    "status CV" : [
+                        {
+                            "jumlah CV" : 2,
+                            "reviwer" : "Anang Bambang",
+                            "status review" : "dalam proses" 
+                        }
+                    ]   
+                }
+            ]
+        }
+    ]
+}
